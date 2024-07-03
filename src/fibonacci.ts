@@ -16,7 +16,7 @@ export const computeFibonacciNumber = (position: number | null): number => {
     let j = 1;
 
     let currentPosition = 2;
-    while (currentPosition < notNullPosition) {
+    while (currentPosition < position) {
         const temp = i;
         i = j;
         j += temp;
